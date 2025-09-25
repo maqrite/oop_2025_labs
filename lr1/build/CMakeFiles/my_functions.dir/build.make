@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1
+CMAKE_SOURCE_DIR = /Users/agrikhanov/Desktop/oop_2025_labs/lr1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build
+CMAKE_BINARY_DIR = /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_functions.dir/depend.make
@@ -72,31 +72,31 @@ include CMakeFiles/my_functions.dir/flags.make
 CMakeFiles/my_functions.dir/codegen:
 .PHONY : CMakeFiles/my_functions.dir/codegen
 
-CMakeFiles/my_functions.dir/function.cpp.o: CMakeFiles/my_functions.dir/flags.make
-CMakeFiles/my_functions.dir/function.cpp.o: /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.cpp
-CMakeFiles/my_functions.dir/function.cpp.o: CMakeFiles/my_functions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_functions.dir/function.cpp.o"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_functions.dir/function.cpp.o -MF CMakeFiles/my_functions.dir/function.cpp.o.d -o CMakeFiles/my_functions.dir/function.cpp.o -c /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.cpp
+CMakeFiles/my_functions.dir/src/function.cpp.o: CMakeFiles/my_functions.dir/flags.make
+CMakeFiles/my_functions.dir/src/function.cpp.o: /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/function.cpp
+CMakeFiles/my_functions.dir/src/function.cpp.o: CMakeFiles/my_functions.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_functions.dir/src/function.cpp.o"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_functions.dir/src/function.cpp.o -MF CMakeFiles/my_functions.dir/src/function.cpp.o.d -o CMakeFiles/my_functions.dir/src/function.cpp.o -c /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/function.cpp
 
-CMakeFiles/my_functions.dir/function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_functions.dir/function.cpp.i"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.cpp > CMakeFiles/my_functions.dir/function.cpp.i
+CMakeFiles/my_functions.dir/src/function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_functions.dir/src/function.cpp.i"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/function.cpp > CMakeFiles/my_functions.dir/src/function.cpp.i
 
-CMakeFiles/my_functions.dir/function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_functions.dir/function.cpp.s"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.cpp -o CMakeFiles/my_functions.dir/function.cpp.s
+CMakeFiles/my_functions.dir/src/function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_functions.dir/src/function.cpp.s"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/function.cpp -o CMakeFiles/my_functions.dir/src/function.cpp.s
 
 # Object files for target my_functions
 my_functions_OBJECTS = \
-"CMakeFiles/my_functions.dir/function.cpp.o"
+"CMakeFiles/my_functions.dir/src/function.cpp.o"
 
 # External object files for target my_functions
 my_functions_EXTERNAL_OBJECTS =
 
-libmy_functions.a: CMakeFiles/my_functions.dir/function.cpp.o
+libmy_functions.a: CMakeFiles/my_functions.dir/src/function.cpp.o
 libmy_functions.a: CMakeFiles/my_functions.dir/build.make
 libmy_functions.a: CMakeFiles/my_functions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmy_functions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmy_functions.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/my_functions.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_functions.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/my_functions.dir/clean:
 .PHONY : CMakeFiles/my_functions.dir/clean
 
 CMakeFiles/my_functions.dir/depend:
-	cd /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1 /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1 /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles/my_functions.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/agrikhanov/Desktop/oop_2025_labs/lr1 /Users/agrikhanov/Desktop/oop_2025_labs/lr1 /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles/my_functions.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_functions.dir/depend
 

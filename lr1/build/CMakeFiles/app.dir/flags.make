@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/bin/g++-14
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/agrikhanov/Desktop/oop_2025_labs/lr1/includes
 
 CXX_FLAGSarm64 = -std=gnu++11 -arch arm64
 

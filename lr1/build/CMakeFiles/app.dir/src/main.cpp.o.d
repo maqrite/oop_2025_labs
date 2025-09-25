@@ -1,6 +1,6 @@
-CMakeFiles/app.dir/main.cpp.o: \
- /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/main.cpp \
- /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.hpp \
+CMakeFiles/app.dir/src/main.cpp.o: \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/main.cpp \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/includes/function.hpp \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/iostream \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/requires_hosted.h \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/aarch64-apple-darwin23/bits/c++config.h \

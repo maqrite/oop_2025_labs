@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.cpp" "CMakeFiles/my_functions.dir/function.cpp.o" "gcc" "CMakeFiles/my_functions.dir/function.cpp.o.d"
+  "/Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/function.cpp" "CMakeFiles/my_functions.dir/src/function.cpp.o" "gcc" "CMakeFiles/my_functions.dir/src/function.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

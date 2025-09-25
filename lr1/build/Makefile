@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1
+CMAKE_SOURCE_DIR = /Users/agrikhanov/Desktop/oop_2025_labs/lr1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build
+CMAKE_BINARY_DIR = /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -262,77 +262,77 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-function.o: function.cpp.o
-.PHONY : function.o
+src/function.o: src/function.cpp.o
+.PHONY : src/function.o
 
 # target to build an object file
-function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_functions.dir/build.make CMakeFiles/my_functions.dir/function.cpp.o
-.PHONY : function.cpp.o
+src/function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_functions.dir/build.make CMakeFiles/my_functions.dir/src/function.cpp.o
+.PHONY : src/function.cpp.o
 
-function.i: function.cpp.i
-.PHONY : function.i
+src/function.i: src/function.cpp.i
+.PHONY : src/function.i
 
 # target to preprocess a source file
-function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_functions.dir/build.make CMakeFiles/my_functions.dir/function.cpp.i
-.PHONY : function.cpp.i
+src/function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_functions.dir/build.make CMakeFiles/my_functions.dir/src/function.cpp.i
+.PHONY : src/function.cpp.i
 
-function.s: function.cpp.s
-.PHONY : function.s
+src/function.s: src/function.cpp.s
+.PHONY : src/function.s
 
 # target to generate assembly for a file
-function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_functions.dir/build.make CMakeFiles/my_functions.dir/function.cpp.s
-.PHONY : function.cpp.s
+src/function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_functions.dir/build.make CMakeFiles/my_functions.dir/src/function.cpp.s
+.PHONY : src/function.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-test.o: test.cpp.o
-.PHONY : test.o
+test/test.o: test/test.cpp.o
+.PHONY : test/test.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test.cpp.o
-.PHONY : test.cpp.o
+test/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test/test.cpp.o
+.PHONY : test/test.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+test/test.i: test/test.cpp.i
+.PHONY : test/test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test.cpp.i
-.PHONY : test.cpp.i
+test/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test/test.cpp.i
+.PHONY : test/test.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+test/test.s: test/test.cpp.s
+.PHONY : test/test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test.cpp.s
-.PHONY : test.cpp.s
+test/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test/test.cpp.s
+.PHONY : test/test.cpp.s
 
 # Help Target
 help:
@@ -354,15 +354,15 @@ help:
 	@echo "... gtest_main"
 	@echo "... my_functions"
 	@echo "... run_tests"
-	@echo "... function.o"
-	@echo "... function.i"
-	@echo "... function.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... src/function.o"
+	@echo "... src/function.i"
+	@echo "... src/function.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... test/test.o"
+	@echo "... test/test.i"
+	@echo "... test/test.s"
 .PHONY : help
 
 

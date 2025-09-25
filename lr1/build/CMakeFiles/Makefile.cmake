@@ -134,7 +134,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-4.1/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.1/Modules/Platform/UnixPaths.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.1/Modules/WriteBasicConfigVersionFile.cmake"
-  "/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/CMakeLists.txt"
+  "/Users/agrikhanov/Desktop/oop_2025_labs/lr1/CMakeLists.txt"
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"

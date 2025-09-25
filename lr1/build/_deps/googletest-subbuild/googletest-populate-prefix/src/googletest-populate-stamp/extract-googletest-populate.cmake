@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.14.0.zip" ABSOLUTE)
-get_filename_component(directory "/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.14.0.zip" ABSOLUTE)
+get_filename_component(directory "/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

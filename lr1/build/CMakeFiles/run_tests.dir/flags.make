@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/bin/g++-14
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src/googletest/include -isystem /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/agrikhanov/Desktop/oop_2025_labs/lr1/includes -isystem /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include -isystem /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 = -std=gnu++14 -arch arm64
 

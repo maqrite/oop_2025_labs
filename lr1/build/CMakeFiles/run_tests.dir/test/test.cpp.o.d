@@ -1,6 +1,6 @@
-CMakeFiles/my_functions.dir/function.cpp.o: \
- /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.cpp \
- /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/function.hpp \
+CMakeFiles/run_tests.dir/test/test.cpp.o: \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/test/test.cpp \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/includes/function.hpp \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/iostream \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/requires_hosted.h \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/aarch64-apple-darwin23/bits/c++config.h \
@@ -130,6 +130,8 @@ CMakeFiles/my_functions.dir/function.cpp.o: \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/utility.h \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/debug/debug.h \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/predefined_ops.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bit \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/concepts \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/refwrap.h \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/invoke.h \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/range_access.h \
@@ -204,4 +206,135 @@ CMakeFiles/my_functions.dir/function.cpp.o: \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/basic_ios.tcc \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/ostream.tcc \
  /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/istream \
- /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/istream.tcc
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/istream.tcc \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/cstddef \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/cstdint \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/iomanip \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/locale \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/locale_facets_nonio.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/ctime \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/aarch64-apple-darwin23/bits/time_members.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/aarch64-apple-darwin23/bits/messages_members.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/codecvt.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/locale_facets_nonio.tcc \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/locale_conv.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/quoted_string.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/sstream \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/sstream.tcc \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/limits \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/memory \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_tempbuf.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_uninitialized.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_raw_storage_iter.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/align.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/uses_allocator.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/unique_ptr.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/tuple \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/shared_ptr.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/shared_ptr_base.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/allocated_ptr.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/ext/aligned_buffer.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/ext/concurrence.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/shared_ptr_atomic.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/atomic_base.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/atomic_lockfree_defines.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/backward/auto_ptr.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/set \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_tree.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_set.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_multiset.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/erase_if.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/vector \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_vector.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_bvector.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/vector.tcc \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/stdlib.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/string.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_rsize_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/strings.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/stat.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blkcnt_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blksize_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino64_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_nlink_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_gid_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_s_ifmt.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_filesec_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/types.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_char.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_short.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_caddr_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_in_addr_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_in_port_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_key_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_useconds_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_suseconds_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_def.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_setsize.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_set.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_clr.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_zero.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_isset.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fd_copy.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/AvailabilityMacros.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/TargetConditionals.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/strings.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/unistd.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/unistd.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_posix_vdisable.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/select.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_select.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_uuid_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/gethostuuid.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/regex.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_regex.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/condition_variable \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/chrono.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/ratio \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/parse_numbers.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/std_mutex.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/unique_lock.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/mutex \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/thread \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/std_thread.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/this_thread_sleep.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/atomic \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/functional \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/std_function.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/utility \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_relops.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/float.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/map \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_map.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stl_multimap.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/cxxabi.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/aarch64-apple-darwin23/bits/cxxabi_tweaks.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/iterator \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/bits/stream_iterator.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+ /opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14/cassert \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/assert.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+ /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h

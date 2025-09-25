@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1
+CMAKE_SOURCE_DIR = /Users/agrikhanov/Desktop/oop_2025_labs/lr1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build
+CMAKE_BINARY_DIR = /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/run_tests.dir/depend.make
@@ -72,36 +72,36 @@ include CMakeFiles/run_tests.dir/flags.make
 CMakeFiles/run_tests.dir/codegen:
 .PHONY : CMakeFiles/run_tests.dir/codegen
 
-CMakeFiles/run_tests.dir/test.cpp.o: CMakeFiles/run_tests.dir/flags.make
-CMakeFiles/run_tests.dir/test.cpp.o: /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/test.cpp
-CMakeFiles/run_tests.dir/test.cpp.o: CMakeFiles/run_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_tests.dir/test.cpp.o"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/test.cpp.o -MF CMakeFiles/run_tests.dir/test.cpp.o.d -o CMakeFiles/run_tests.dir/test.cpp.o -c /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/test.cpp
+CMakeFiles/run_tests.dir/test/test.cpp.o: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/test/test.cpp.o: /Users/agrikhanov/Desktop/oop_2025_labs/lr1/test/test.cpp
+CMakeFiles/run_tests.dir/test/test.cpp.o: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_tests.dir/test/test.cpp.o"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/test/test.cpp.o -MF CMakeFiles/run_tests.dir/test/test.cpp.o.d -o CMakeFiles/run_tests.dir/test/test.cpp.o -c /Users/agrikhanov/Desktop/oop_2025_labs/lr1/test/test.cpp
 
-CMakeFiles/run_tests.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test.cpp.i"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/test.cpp > CMakeFiles/run_tests.dir/test.cpp.i
+CMakeFiles/run_tests.dir/test/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test/test.cpp.i"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/agrikhanov/Desktop/oop_2025_labs/lr1/test/test.cpp > CMakeFiles/run_tests.dir/test/test.cpp.i
 
-CMakeFiles/run_tests.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test.cpp.s"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/test.cpp -o CMakeFiles/run_tests.dir/test.cpp.s
+CMakeFiles/run_tests.dir/test/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test/test.cpp.s"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/agrikhanov/Desktop/oop_2025_labs/lr1/test/test.cpp -o CMakeFiles/run_tests.dir/test/test.cpp.s
 
 # Object files for target run_tests
 run_tests_OBJECTS = \
-"CMakeFiles/run_tests.dir/test.cpp.o"
+"CMakeFiles/run_tests.dir/test/test.cpp.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
 
-run_tests: CMakeFiles/run_tests.dir/test.cpp.o
+run_tests: CMakeFiles/run_tests.dir/test/test.cpp.o
 run_tests: CMakeFiles/run_tests.dir/build.make
 run_tests: libmy_functions.a
 run_tests: lib/libgtest_main.a
 run_tests: lib/libgtest.a
 run_tests: CMakeFiles/run_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=$(VERBOSE)
-	/Applications/CMake.app/Contents/bin/cmake -D TEST_TARGET=run_tests -D TEST_EXECUTABLE=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/run_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=run_tests_TESTS -D CTEST_FILE=/Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/run_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /Applications/CMake.app/Contents/share/cmake-4.1/Modules/GoogleTestAddTests.cmake
+	/Applications/CMake.app/Contents/bin/cmake -D TEST_TARGET=run_tests -D TEST_EXECUTABLE=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/run_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=run_tests_TESTS -D CTEST_FILE=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/run_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /Applications/CMake.app/Contents/share/cmake-4.1/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/run_tests.dir/build: run_tests
@@ -112,6 +112,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1 /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1 /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/CMakeFiles/run_tests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/agrikhanov/Desktop/oop_2025_labs/lr1 /Users/agrikhanov/Desktop/oop_2025_labs/lr1 /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles/run_tests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run_tests.dir/depend
 

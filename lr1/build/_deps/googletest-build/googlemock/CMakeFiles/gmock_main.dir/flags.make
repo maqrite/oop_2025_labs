@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/bin/g++-14
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src/googlemock/include -isystem /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src/googlemock -isystem /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src/googletest/include -isystem /Users/agrikhanov/Desktop/labs25-26-3sem/oop/lr1/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -isystem /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googlemock/include -isystem /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googlemock -isystem /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest/include -isystem /Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 = -std=c++14 -arch arm64 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 
