@@ -72,28 +72,28 @@ include CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/codegen:
 .PHONY : CMakeFiles/app.dir/codegen
 
-CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/main.cpp.o: /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/main.cpp
-CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.o -MF CMakeFiles/app.dir/src/main.cpp.o.d -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/main.cpp
+CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/main.cpp.o: /Users/agrikhanov/Desktop/oop_2025_labs/lr1/main.cpp
+CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/agrikhanov/Desktop/oop_2025_labs/lr1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /Users/agrikhanov/Desktop/oop_2025_labs/lr1/main.cpp
 
-CMakeFiles/app.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/main.cpp.i"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
+CMakeFiles/app.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/agrikhanov/Desktop/oop_2025_labs/lr1/main.cpp > CMakeFiles/app.dir/main.cpp.i
 
-CMakeFiles/app.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
-	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/agrikhanov/Desktop/oop_2025_labs/lr1/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
+CMakeFiles/app.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
+	/opt/homebrew/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/agrikhanov/Desktop/oop_2025_labs/lr1/main.cpp -o CMakeFiles/app.dir/main.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
-"CMakeFiles/app.dir/src/main.cpp.o"
+"CMakeFiles/app.dir/main.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
-app: CMakeFiles/app.dir/src/main.cpp.o
+app: CMakeFiles/app.dir/main.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: libmy_functions.a
 app: CMakeFiles/app.dir/link.txt

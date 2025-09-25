@@ -12,7 +12,7 @@ add_library(my_functions src/function.cpp)
 
 target_include_directories(my_functions PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/includes)
 
-add_executable(app src/main.cpp)
+add_executable(app main.cpp)
 
 target_link_libraries(app PRIVATE my_functions)
 
